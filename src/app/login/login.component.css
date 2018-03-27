@@ -1,0 +1,95 @@
+@import "https://fonts.googleapis.com/css?family=Ubuntu:400,700italic";
+@import "https://fonts.googleapis.com/css?family=Cabin:400";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #2FA4E7;;
+  background-size: cover;
+  font-size: 10px;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.stark-login{
+  padding:15px;
+  padding-top:30px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+h1 {
+  
+  font-family: 'Ubuntu', sans-serif;
+  color: #2222;
+  font-size: 48px;
+  font-size: 4.8rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+}
+.col-md-offset-3 {
+  margin-left: 25%;
+}
+.col-sm-8{
+  width:100%;
+}
+.col-md-6 {
+  width: 100%;
+}
+.panel-info{
+  border-color: #bce8f1;
+}
+.panel{
+  margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #bce8f1;
+    border-radius: 4px;
+}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid #bce8f1;;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.panel-info>.panel-heading {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+.form-group{
+  margin-bottom:25px;
+}
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+.line{
+  margin-top: 15px;
+}
+.main{
+  width:100%;
+}
